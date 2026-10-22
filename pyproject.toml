@@ -18,5 +18,3 @@ afad-earthquake-mcp = "afad_earthquake_mcp:main"
 requires = ["uv_build>=0.13.5,<0.14.0"]
 build-backend = "uv_build"
 
-[tool.vercel]
-entrypoint = "afad_earthquake_mcp:app"
