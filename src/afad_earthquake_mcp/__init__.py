@@ -98,5 +98,8 @@ async def city_earthquakes(
     return _table(matches[:limit], f"Earthquakes in {name} in the last {days} days")
 
 
+app = mcp.http_app(stateless_http=True, json_response=True)
+
+
 def main() -> None:
     mcp.run()
